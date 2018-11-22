@@ -15,7 +15,7 @@ module.exports = function (context) {
 
     console.log('installing external dependencies via npm');
 
-    exec(   'npm install xml2js',
+    exec(   'npm install cordova-custom-config',
             function (error, stdout, stderr) {
                 if (error !== null) {
                     // XXX TODO SIGNAL FAILURE HERE.
